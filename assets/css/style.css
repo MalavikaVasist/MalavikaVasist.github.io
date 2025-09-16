@@ -2,19 +2,22 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Example: style navigation menu */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+/* Make the nav links horizontal and right-aligned */
+header nav ul {
+  list-style: none;          /* Remove bullets */
+  display: flex;             /* Horizontal layout */
+  justify-content: flex-end; /* Align to the right */
+  gap: 20px;                 /* Space between links */
+  margin: 0;                 /* Remove default ul margin */
+  padding: 0;                /* Remove default ul padding */
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
+header nav ul li a {
+  text-decoration: none;     /* Remove underline */
+  color: #333;               /* Link color */
   font-weight: bold;
 }
 
-nav ul li a:hover {
-  color: #007acc;
+header nav ul li a:hover {
+  color: #007acc;            /* Hover color */
 }
