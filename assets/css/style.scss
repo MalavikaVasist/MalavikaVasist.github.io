@@ -1,61 +1,72 @@
+
 ---
 ---
 
 @import "jekyll-theme-tactile";
 
-/* ---- Custom header spacing overrides ---- */
+/* === Custom overrides to look like Wix site === */
 
-/* compact header area */
+// body {
+//   background: #f5f5f5; /* light grey */
+// }
+
+/* Or add a background image */
+header {
+  background: url('/assets/header-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+
+/* Center header content */
 header {
   text-align: center;
-  padding: 18px 20px;        /* reduce space above/below header */
+  padding: 40px 20px;
 }
 
-/* tighter title and subtitle spacing */
+/* Big name/title */
 header h1 {
-  margin: 0 0 6px;           /* small gap below title */
-  font-size: 2.4rem;
-}
-header h2 {
-  margin: 0 0 8px;           /* small gap below subtitle */
-  font-weight: 400;
-  color: #666;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-/* nav (buttons) — centered and compact */
-header nav {
-  margin: 0 0 6px;           /* reduce space below nav */
+/* Subtitle under name */
+header h2 {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 10px;
 }
+
+/* Navigation bar styled like Wix buttons */
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 22px;
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
+
 header nav ul li a {
   display: inline-block;
-  padding: 8px 18px;
-  border-radius: 22px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  padding: 10px 20px;
+  background: white;
+  border-radius: 25px;
   text-decoration: none;
-  font-weight: 700;
-  color: #111;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background 0.3s, color 0.3s;
 }
 
-/* hr: reduce top/bottom margins so "Hello" sits closer */
+header nav ul li a:hover {
+  background: #007acc;
+  color: white;
+}
+
+/* Reduce spacing around the horizontal line */
 hr {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  border: none;
-  border-top: 1px solid rgba(0,0,0,0.06);
+  margin-top: 0.5em;   /* space above hr */
+  margin-bottom: 0.5em; /* space below hr */
 }
-
-/* make sure the first paragraph doesn't add extra top gap */
-#main_content p:first-of-type {
-  margin-top: 8px;
-}
-
-
