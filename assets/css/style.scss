@@ -1,125 +1,58 @@
 @import "jekyll-theme-tactile";
 
-/* ===========================
-   Strong overrides for nav
-   =========================== */
+/* === Custom overrides === */
 
-/* variables to tweak easily */
-:root{
-  --nav-gap: 36px;
-  --nav-padding: 10px 24px;
-  --nav-radius: 28px;
-  --nav-bg: #ffffff;
-  --nav-hover: #007acc;
-  --nav-shadow: 0 3px 8px rgba(0,0,0,0.12);
+/* Header spacing */
+header {
+  text-align: center;
+  padding: 40px 20px 0;  /* removed bottom padding */
+  margin-bottom: 15px;   /* reduced space before content */
 }
 
-/* Make header tight and reduce bottom space */
-header, .site-header, .masthead, #header, .page-header {
-  padding: 40px 20px 0 !important;
-  margin-bottom: 8px !important;
-  text-align: center !important;
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-/* Force the nav/list to display as a centered horizontal group
-   Target many common theme selectors so the rules actually hit. */
-header nav ul,
-header ul,
-.site-nav,
-.navigation,
-.menu,
-.nav,
-.main-navigation ul,
-nav > ul,
-ul.nav {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: flex !important;
-  gap: var(--nav-gap) !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: nowrap !important;
+header h2 {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-/* Remove bullets on older browsers */
-header nav ul li,
-header ul li,
-.nav li,
-.menu li {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none !important;
+/* Navigation as Wix-style buttons */
+header nav ul.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
-/* hide any marker if present */
-header nav ul li::marker,
-ul.nav li::marker {
-  display: none !important;
-  content: none !important;
+header nav ul.nav li {
+  margin: 0;
 }
 
-/* Style anchors as pill buttons and force these styles to win */
-header nav a,
-header a,
-.site-nav a,
-.navigation a,
-.menu a,
-.nav a,
-.main-navigation a,
-nav > ul > li > a {
-  display: inline-block !important;
-  padding: var(--nav-padding) !important;
-  background: var(--nav-bg) !important;
-  border-radius: var(--nav-radius) !important;
-  text-decoration: none !important;
-  color: #111 !important;
-  font-weight: 600 !important;
-  box-shadow: var(--nav-shadow) !important;
-  transition: background .18s ease, color .18s ease !important;
-  white-space: nowrap !important;
+header nav ul.nav li a {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #fff;
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  transition: background 0.3s, color 0.3s;
 }
 
-/* hover state */
-header nav a:hover,
-.site-nav a:hover,
-.nav a:hover {
-  background: var(--nav-hover) !important;
-  color: #fff !important;
+header nav ul.nav li a:hover {
+  background: #007acc;
+  color: #fff;
 }
 
-/* Hide submenus completely (you said you don't want Masters/PhD) */
-header nav ul ul,
-.navigation ul ul,
-.menu li ul,
-.nav li ul,
-nav ul ul {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
-
-/* Reduce gap between header/nav and the following content */
-header + main,
-header + .content,
-header + .site-content,
-header + .page {
-  margin-top: 8px !important;
-  padding-top: 0 !important;
-}
-
-/* Generic content selectors — ensure the first paragraph isn't pushing down */
-main, .content, .site-content, .page {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* Extra safety: if the nav is printed in a sidebar area, force center on wide screens */
-@media (min-width: 700px) {
-  header nav ul,
-  .main-navigation ul,
-  ul.nav {
-    justify-content: center !important;
-  }
+/* Hide any submenus (not needed) */
+header nav ul ul {
+  display: none;
 }
