@@ -1,5 +1,6 @@
-# Hello, I'm Malavika Vasist Savoyant 👋
+# Malavika Vasist Savoyant
 
+#Hello, I'm Malavika 
 Welcome to my professional website.  
 
 I am a [Your Profession / Role] specializing in [Your Expertise].  
