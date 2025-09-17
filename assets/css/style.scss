@@ -78,3 +78,44 @@ nav ul ul li a {
   white-space: nowrap;
 }
 
+/* === Project Cards for Projects page === */
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  display: block;
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background-color: #f0f8ff;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.project-card p {
+  font-size: 0.95em;
+  color: #666;
+}
+
+
