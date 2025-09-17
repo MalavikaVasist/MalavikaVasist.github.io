@@ -1,0 +1,34 @@
+---
+---
+
+@import "jekyll-theme-tactile";
+
+/* === Custom overrides below === */
+
+/* Make header a flex container: title/description left, nav right */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* keeps things neat on small screens */
+}
+
+/* Style the nav list */
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #007acc; /* hover color */
+}
