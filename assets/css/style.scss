@@ -45,7 +45,6 @@ header nav ul {
   gap: 30px;
   margin: 0;
   padding: 0;
-  margin-bottom: 0.5em; /* smaller gap below nav */
 }
 
 header nav ul li a {
@@ -63,4 +62,10 @@ header nav ul li a {
 header nav ul li a:hover {
   background: #007acc;
   color: white;
+}
+
+/* Reduce spacing around the horizontal line */
+hr {
+  margin-top: 0.5em;   /* space above hr */
+  margin-bottom: 0.5em; /* space below hr */
 }
