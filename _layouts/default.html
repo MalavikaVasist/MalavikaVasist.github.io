@@ -22,11 +22,15 @@
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-          <nav>
+		  <nav>
 		  <ul>
-		    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-		    <li><a href="{{ '/projects/masters_projects/' | relative_url }}">Masters Projects</a></li>
-		    <li><a href="{{ '/projects/phd_projects/' | relative_url }}">PhD Projects</a></li>
+		    <li>
+		      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+		      <ul>
+		        <li><a href="{{ '/projects/masters_projects/' | relative_url }}">Masters Projects</a></li>
+		        <li><a href="{{ '/projects/phd_projects/' | relative_url }}">PhD Projects</a></li>
+		      </ul>
+		    </li>
 		    <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
 		    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
 		  </ul>
