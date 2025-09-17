@@ -9,7 +9,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap; /* keeps things neat on small screens */
 }
 
@@ -17,7 +17,8 @@ header {
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  flex-direction: column; /* stack links vertically */
+  gap: 10px; /* space between items */
   margin: 0;
   padding: 0;
 }
