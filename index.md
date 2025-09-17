@@ -1,8 +1,4 @@
----
-title: Home
----
-
-# Hello, I'm Malavika 👋
+# Hello, I'm Malavika Vasist Savoyant 👋
 
 Welcome to my professional website.  
 
