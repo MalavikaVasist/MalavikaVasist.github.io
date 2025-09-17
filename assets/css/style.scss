@@ -1,12 +1,53 @@
 @import "jekyll-theme-tactile";
 
 /* === Custom overrides === */
+---
+---
 
-/* Header spacing */
+@import "{{ site.theme }}";
+
+/* === Custom overrides for nav buttons === */
+
+header nav ul.custom-nav,
+header .inner nav ul.custom-nav,
+header nav > ul.custom-nav {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  gap: 40px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+header nav ul.custom-nav li {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+header nav ul.custom-nav li a {
+  display: inline-block !important;
+  padding: 10px 24px !important;
+  background: #ffffff !important;
+  border-radius: 28px !important;
+  text-decoration: none !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12) !important;
+  transition: background 0.3s ease, color 0.3s ease !important;
+  white-space: nowrap !important;
+}
+
+header nav ul.custom-nav li a:hover {
+  background: #007acc !important;
+  color: #ffffff !important;
+}
+
+/* Reduce space under header before main content */
 header {
-  text-align: center;
-  padding: 40px 20px 0;  /* removed bottom padding */
-  margin-bottom: 15px;   /* reduced space before content */
+  padding-bottom: 0 !important;
+  margin-bottom: 15px !important;
 }
 
 header h1 {
