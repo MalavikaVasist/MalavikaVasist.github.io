@@ -1,24 +1,18 @@
-
----
----
-
 @import "jekyll-theme-tactile";
 
 /* === Custom overrides to look like Wix site === */
 
 body {
   background: #f5f5f5; /* light grey */
+  margin: 0;
+  font-family: sans-serif;
 }
 
 /* Center header content */
 header {
   text-align: center;
-  padding: 40px 20px 0px;
-  margin-bottom: 10px;  /* optional: tweak this value to control spacing */
-}
-
-main, body p {
-  margin-top: 0;
+  padding: 40px 20px 0; /* no bottom padding */
+  margin-bottom: 10px; /* reduce space before main content */
 }
 
 /* Big name/title */
@@ -32,22 +26,22 @@ header h1 {
 header h2 {
   font-size: 1.2em;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Navigation bar styled like Wix buttons */
-header nav ul {
+ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 70px;
+  gap: 40px;
   margin: 0;
   padding: 0;
 }
 
-header nav ul li a {
+ul li a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 25px;
   background: white;
   border-radius: 25px;
   text-decoration: none;
@@ -57,23 +51,17 @@ header nav ul li a {
   transition: background 0.3s, color 0.3s;
 }
 
-header nav ul li a:hover {
+ul li a:hover {
   background: #007acc;
   color: white;
 }
 
-nav ul li:hover > ul {
-  display: block;
-}
-
-nav ul ul li a {
-  padding: 8px 16px;
-  display: block;
-  white-space: nowrap;
+/* Remove any submenu styles since not needed */
+nav ul ul {
+  display: none;
 }
 
 /* === Project Cards for Projects page === */
-
 .project-cards {
   display: flex;
   flex-wrap: wrap;
@@ -111,5 +99,3 @@ nav ul ul li a {
   font-size: 0.95em;
   color: #666;
 }
-
-
