@@ -5,6 +5,18 @@
 
 /* === Custom overrides to look like Wix site === */
 
+body {
+  background: #f5f5f5; /* light grey */
+}
+
+/* Or add a background image */
+header {
+  background: url('/assets/header-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+
 /* Center header content */
 header {
   text-align: center;
