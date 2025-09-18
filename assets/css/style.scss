@@ -36,6 +36,12 @@ header nav ul.custom-nav {
   // flex-wrap: wrap;
 }
 
+header nav ul.custom-nav li {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
 ul.custom-nav {
   list-style: none;   
   margin: 0;          
@@ -43,8 +49,8 @@ ul.custom-nav {
 }
 
 header nav ul.custom-nav li a.button {
-  flex: 1 0 auto;
-  display: inline-block;
+  // flex: 1 0 auto;
+  display: block;
   padding: 10px 10px;
   background: #fff;
   border-radius: 18px;
