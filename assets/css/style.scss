@@ -22,6 +22,8 @@ header nav ul.custom-nav {
 header nav ul.custom-nav li {
   margin: 0 !important;
   padding: 0 !important;
+  list-style: none;
+  display: flex;
 }
 
 header nav ul.custom-nav li a.nav-button {
