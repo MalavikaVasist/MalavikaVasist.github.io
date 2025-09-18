@@ -10,17 +10,17 @@ body {
 
 /* === Navigation buttons === */
 header nav ul.custom-nav {
-  list-style: none;
+  list-style: none !important;
   margin: 20px 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 10px;
 }
 
 header nav ul.custom-nav li {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 header nav ul.custom-nav li a.button {
