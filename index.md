@@ -8,7 +8,6 @@ Hello there and welcome! My name is Malavika and I am a reseracher specializing 
     “Water depletion and NH<sub>3</sub> in the atmosphere of the coldest brown dwarf observed with JWST/MIRI.” 
     <i>Astronomy &amp; Astrophysics</i>, vol. 695, A224, Mar. 2025. 
     <a href="https://doi.org/10.1051/0004-6361/202452547" target="_blank">DOI</a> | 
-    <a href="https://arxiv.org/abs/2410.10933" target="_blank">arXiv:2410.10933</a>
   </li>
 
   <li>
