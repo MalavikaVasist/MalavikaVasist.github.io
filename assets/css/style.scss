@@ -67,17 +67,16 @@ header nav ul.custom-nav li a.button:hover {
   color: #fff;
 }
 
-// .image-container {
-//   display: flex;
-//   justify-content: center; /* Centers images horizontally */
-//   align-items: center;     /* Centers images vertically (optional) */
-//   gap: 20px;               /* Adds space between images */
-//   flex-wrap: wrap;         /* Ensures images will wrap on smaller screens */
-// }
+figure {
+  margin: 1em auto;       /* centers figure horizontally */
+  text-align: center;     /* centers image & caption inside */
+  width: fit-content;     /* shrink-wraps around the image */
+}
 
-// .image-container img {
-//   max-width: 100%;         /* Makes images responsive */
-//   height: auto;            /* Keeps aspect ratio intact */
-// }
+figure img {
+  max-width: 100%;        /* ensures image doesn't overflow page */
+  height: auto;           /* keeps aspect ratio */
+  display: block;         /* removes inline spacing */
+}
 
 
