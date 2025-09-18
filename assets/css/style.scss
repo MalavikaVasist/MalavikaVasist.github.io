@@ -86,5 +86,8 @@ figure img {
   width: 150px;             /* Adjust size */
   height: auto;             /* Keeps aspect ratio */
   border-radius: 50%;       /* Makes it circular */
+  display: inline;          /* Override global block rule */
+  margin-left: 0;           /* Reset centering */
+  margin-right: 20px;
 }
 
