@@ -17,7 +17,6 @@
   <body>
     <div id="container">
       <div class="inner">
-
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
@@ -29,8 +28,12 @@
               <li><a class="button" href="{{ '/contact.html' | relative_url }}">Contact</a></li>
             </ul>
           </nav>
-
         </header>
+
+        <div class="image-container">
+        <img src="/assets/images/galaxy-merger.jpg" alt="Galaxy merger" width="300">
+        <img src="/assets/images/Eagle.png" alt="Eagle simulations" width="300">
+      </div>
 
         <main id="main_content">
           {{ content }}
