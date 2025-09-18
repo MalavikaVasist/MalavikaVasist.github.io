@@ -67,17 +67,17 @@ header nav ul.custom-nav li a.button:hover {
   color: #fff;
 }
 
-.image-container {
-  display: flex;
-  justify-content: center; /* Centers images horizontally */
-  align-items: center;     /* Centers images vertically (optional) */
-  gap: 20px;               /* Adds space between images */
-  flex-wrap: wrap;         /* Ensures images will wrap on smaller screens */
-}
+// .image-container {
+//   display: flex;
+//   justify-content: center; /* Centers images horizontally */
+//   align-items: center;     /* Centers images vertically (optional) */
+//   gap: 20px;               /* Adds space between images */
+//   flex-wrap: wrap;         /* Ensures images will wrap on smaller screens */
+// }
 
-.image-container img {
-  max-width: 100%;         /* Makes images responsive */
-  height: auto;            /* Keeps aspect ratio intact */
-}
+// .image-container img {
+//   max-width: 100%;         /* Makes images responsive */
+//   height: auto;            /* Keeps aspect ratio intact */
+// }
 
 
