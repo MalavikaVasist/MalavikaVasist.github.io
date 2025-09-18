@@ -79,15 +79,33 @@ figure img {
   display: block;         /* removes inline spacing */
 }
 
-/* Profile image override */
-.profile-pic {
-  float: left;              /* Aligns image left */
-  margin: 10px 20px 10px 0; /* Spacing around image */
-  width: 150px;             /* Adjust size */
-  height: auto;             /* Keeps aspect ratio */
-  border-radius: 50%;       /* Makes it circular */
-  display: inline !important;          /* Override global block rule */
-  margin-left: 0 !important;           /* Reset centering */
-  margin-right: 20px;
+// /* Profile image override */
+// .profile-pic {
+//   float: left;              /* Aligns image left */
+//   margin: 10px 20px 10px 0; /* Spacing around image */
+//   width: 150px;             /* Adjust size */
+//   height: auto;             /* Keeps aspect ratio */
+//   border-radius: 50%;       /* Makes it circular */
+//   display: inline !important;          /* Override global block rule */
+//   margin-left: 0 !important;           /* Reset centering */
+//   margin-right: 20px;
+// }
+
+/* override for the profile figure */
+figure.profile-figure {
+  margin: 0 1rem 1rem 0;   /* not centered — give spacing on right */
+  text-align: left;
+  width: auto;
+  float: left;             /* place the whole figure on the left */
 }
+
+/* image inside that figure */
+figure.profile-figure img.profile-pic {
+  display: block;
+  margin: 0;
+  width: 150px;            /* tweak as needed */
+  height: auto;
+  border-radius: 50%;
+}
+
 
