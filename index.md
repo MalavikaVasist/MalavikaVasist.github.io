@@ -1,3 +1,10 @@
+
+<figure>
+  <img src="/assets/images/Me.jpeg" alt="Me" width="350" height="250">
+  <figcaption></figcaption>
+</figure>
+
+
 Hello there and welcome! My name is Malavika and I am a reseracher specializing in studying exoplanets using Machine learning driven simulation-based inference (SBI) algorithms. My broad interest lies in using Data Science techniques to solve problems in astronomy. Here you can find my resume, research, and ways to contact me.
 
 <h2>Research Publications</h2>
