@@ -24,7 +24,7 @@ header nav ul.custom-nav li {
   padding: 0 !important;
 }
 
-header nav ul.custom-nav li a.button {
+header nav ul.custom-nav li a.nav-button {
   flex: 1 0 auto;
   display: inline-block;
   padding: 10px 24px;
@@ -38,7 +38,7 @@ header nav ul.custom-nav li a.button {
   white-space: nowrap;
 }
 
-header nav ul.custom-nav li a.button:hover {
+header nav ul.custom-nav li a.nav-button:hover {
   background: #007acc;
   color: #fff;
 }
