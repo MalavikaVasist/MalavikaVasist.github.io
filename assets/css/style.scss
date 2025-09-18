@@ -37,12 +37,11 @@ header nav ul.custom-nav {
   // flex-wrap: wrap;
 }
 
-// header nav ul.custom-nav li {
-//   margin: 0 !important;
-//   padding: 0 !important;
-//   list-style: none;
-//   display: flex;
-// }
+ul.custom-nav {
+  list-style: none;   
+  margin: 0;          
+  padding: 0;         
+}
 
 header nav ul.custom-nav li a.button {
   flex: 1 0 auto;
