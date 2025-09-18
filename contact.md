@@ -5,5 +5,5 @@ title: Contact
 
 # Contact
 
-- Email: your.email@example.com  
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
+- Email: malavika.vasist47@gmail.com  
+- LinkedIn: [Your LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/malavika-vasist-a236a974/))  
