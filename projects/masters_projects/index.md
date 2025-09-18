@@ -11,7 +11,7 @@ Here are some of my projects:
 **Using Deep Learning to predict the properties of galaxy major mergers in EAGLE simulations**
 
 <figure>
-  <img src="/assets/images/galaxy-merger.jpg" alt="Galaxy merger" width="500">
+  <img src="/assets/images/galaxy-merger.jpg" alt="Galaxy merger" width="500" >
   <figcaption></figcaption>
 </figure>
 
