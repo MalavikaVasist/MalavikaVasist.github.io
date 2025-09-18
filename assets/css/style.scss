@@ -16,6 +16,7 @@ header nav ul.custom-nav {
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 header nav ul.custom-nav li {
@@ -24,6 +25,7 @@ header nav ul.custom-nav li {
 }
 
 header nav ul.custom-nav li a.button {
+  flex: 1 0 auto;
   display: inline-block;
   padding: 10px 24px;
   background: #fff;
