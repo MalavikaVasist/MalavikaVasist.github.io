@@ -7,41 +7,10 @@ body {
   background-color: pink;
 }
 
-/* === Navigation buttons === */
-header nav ul.custom-nav {
-  list-style: none !important;
-  margin: 20px 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2px;
-  flex-wrap: wrap;
-}
-
-header nav ul.custom-nav li {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none;
-  display: flex;
-}
-
-header nav ul.custom-nav li a.button {
-  flex: 1 0 auto;
-  display: inline-block;
-  padding: 10px 10px;
-  background: #fff;
-  border-radius: 18px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #000;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
-  transition: background 0.3s, color 0.3s;
-  white-space: nowrap;
-}
-
-header nav ul.custom-nav li a.button:hover {
-  background: #007acc;
-  color: #fff;
+/* Center header content */
+header {
+  text-align: center;
+  padding: 40px 20px;
 }
 
 /* === Header text tweaks === */
@@ -54,5 +23,44 @@ header h1 {
 header h2 {
   font-size: 1.2em;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
+
+/* === Navigation buttons === */
+header nav ul.custom-nav {
+  list-style: none !important;
+  display: flex;
+  margin: 20px 0;
+  padding: 0;
+  justify-content: center;
+  gap: 2px;
+  // flex-wrap: wrap;
+}
+
+// header nav ul.custom-nav li {
+//   margin: 0 !important;
+//   padding: 0 !important;
+//   list-style: none;
+//   display: flex;
+// }
+
+header nav ul.custom-nav li a.button {
+  flex: 1 0 auto;
+  display: inline-block;
+  padding: 10px 10px;
+  background: #fff;
+  border-radius: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  transition: background 0.3s, color 0.3s;
+  // white-space: nowrap;
+}
+
+header nav ul.custom-nav li a.button:hover {
+  background: #007acc;
+  color: #fff;
+}
+
+
