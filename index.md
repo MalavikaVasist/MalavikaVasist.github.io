@@ -1,14 +1,18 @@
-
-<figure class="profile-figure">
+<div class="intro-section">
+  <figure class="profile-figure">
   <img src="/assets/images/Me.jpeg" alt="Me" width="350" height="500" class="profile-pic">
   <figcaption></figcaption>
 </figure>
-
+  <div class="intro-text">
+    <p>
 Hello there and welcome! My name is Malavika and I am a reseracher specializing in studying exoplanets using Machine learning driven simulation-based inference (SBI) algorithms. My broad interest lies in using Data Science techniques to solve problems in astronomy. Here you can find my resume, research, and ways to contact me.
+    </p>
+  </div>
+</div>
 
-<h2>Research Publications</h2>
-
-<ol>
+<div class="publications-section">
+  <h2>Research Publications</h2>
+  <ol>
   <li>
     H. Kühnle, P. Patapis, P. Mollière, <i>et al.</i>, 
     “Water depletion and NH<sub>3</sub> in the atmosphere of the coldest brown dwarf observed with JWST/MIRI.” 
@@ -44,6 +48,7 @@ Hello there and welcome! My name is Malavika and I am a reseracher specializing 
     <a href="https://www.academia.edu/27200545/Three-Point_MPPT_technique_for_photovoltaic_systems" target="_blank">Link</a>
   </li>
 </ol>
+</div>
 
 <h2>PhD Thesis</h2>
 
