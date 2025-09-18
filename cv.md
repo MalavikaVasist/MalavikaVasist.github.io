@@ -5,4 +5,4 @@ title: CV
 
 # Curriculum Vitae
 
-Write your education, work experience, skills here.
+You can [find my CV](assets/pdfs/cv.pdf) here.
