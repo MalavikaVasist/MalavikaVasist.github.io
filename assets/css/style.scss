@@ -79,4 +79,12 @@ figure img {
   display: block;         /* removes inline spacing */
 }
 
+/* Profile image override */
+.profile-pic {
+  float: left;              /* Aligns image left */
+  margin: 10px 20px 10px 0; /* Spacing around image */
+  width: 150px;             /* Adjust size */
+  height: auto;             /* Keeps aspect ratio */
+  border-radius: 50%;       /* Makes it circular */
+}
 
