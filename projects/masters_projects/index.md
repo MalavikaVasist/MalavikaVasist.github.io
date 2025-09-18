@@ -1,6 +1,7 @@
 ---
-layout: no-description
+layout: default
 title: Masters project
+description: 
 ---
 
 <h2>Masters</h2>
