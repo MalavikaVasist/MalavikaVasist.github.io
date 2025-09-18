@@ -1,50 +1,39 @@
 @import "jekyll-theme-tactile";
 
-
-/* === Custom overrides for nav buttons === */
-
-header nav ul.custom-nav,
-header .inner nav ul.custom-nav,
-header nav > ul.custom-nav {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: flex !important;
-  gap: 40px !important;
-  justify-content: center !important;
-  align-items: center !important;
+/* === Navigation buttons === */
+header nav ul.custom-nav {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 header nav ul.custom-nav li {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none !important;
+  margin: 0;
+  padding: 0;
 }
 
 header nav ul.custom-nav li a {
-  display: inline-block !important;
-  padding: 10px 24px !important;
-  background: #ffffff !important;
-  border-radius: 28px !important;
-  text-decoration: none !important;
-  color: #000000 !important;
-  font-weight: bold !important;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.12) !important;
-  transition: background 0.3s ease, color 0.3s ease !important;
-  white-space: nowrap !important;
+  display: inline-block;
+  padding: 10px 24px;
+  background: #fff;
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  transition: background 0.3s, color 0.3s;
+  white-space: nowrap;
 }
 
 header nav ul.custom-nav li a:hover {
-  background: #007acc !important;
-  color: #ffffff !important;
+  background: #007acc;
+  color: #fff;
 }
 
-/* Reduce space under header before main content */
-header {
-  padding-bottom: 0 !important;
-  margin-bottom: 15px !important;
-}
-
+/* === Header text tweaks === */
 header h1 {
   font-size: 2.5em;
   font-weight: bold;
@@ -55,40 +44,4 @@ header h2 {
   font-size: 1.2em;
   color: #666;
   margin-bottom: 20px;
-}
-
-/* Navigation as Wix-style buttons */
-header nav ul.nav {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul.nav li {
-  margin: 0;
-}
-
-header nav ul.nav li a {
-  display: inline-block;
-  padding: 10px 24px;
-  background: #fff;
-  border-radius: 28px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #000;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
-  transition: background 0.3s, color 0.3s;
-}
-
-header nav ul.nav li a:hover {
-  background: #007acc;
-  color: #fff;
-}
-
-/* Hide any submenus (not needed) */
-header nav ul ul {
-  display: none;
 }
