@@ -11,7 +11,7 @@ Here are some of my projects:
 **Using Deep Learning to predict the properties of galaxy major mergers in EAGLE simulations**
 
 <figure>
-  <img src="/assets/images/galaxy-merger.jpg" alt="Galaxy merger" width="500" >
+  <img src="/assets/images/galaxy-merger.jpg" alt="Galaxy merger" width="350" height="250">
   <figcaption></figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Galaxy mergers impact the evolution of galaxies by contributing to their mass gr
 **The relation between galaxy morphology and merger history in EAGLE simulations** 
 
 <figure>
-  <img src="/assets/images/Eagle.png" alt="EAGLE simulations" width="500">
+  <img src="/assets/images/Eagle.png" alt="EAGLE simulations" width="350" height="250">
   <figcaption></figcaption>
 </figure>
 
