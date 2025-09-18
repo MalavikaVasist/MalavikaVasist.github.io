@@ -1,6 +1,6 @@
 
 <figure>
-  <img src="/assets/images/Me.jpeg" alt="Me" width="350" height="500">
+  <img src="/assets/images/Me.jpeg" alt="Me" width="350" height="500" class="profile-pic">
   <figcaption></figcaption>
 </figure>
 
