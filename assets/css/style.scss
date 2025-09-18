@@ -108,4 +108,20 @@ figure.profile-figure img.profile-pic {
   border-radius: 50%;
 }
 
+/* Responsive tweak for small screens */
+@media (max-width: 700px) {
+  figure.profile-figure {
+    float: none;
+    margin: 0 auto 1rem;
+    text-align: center;
+    width: fit-content;
+  }
+  figure.profile-figure img.profile-pic {
+    width: 120px;
+    margin: 0 auto;
+    float: none;
+    display: block;
+  }
+}
+
 
