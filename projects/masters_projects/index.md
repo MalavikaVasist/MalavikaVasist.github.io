@@ -17,8 +17,12 @@ Here are some of my projects:
 
 Galaxy mergers impact the evolution of galaxies by contributing to their mass growth and change in morphology thus motivating us to study them. Observational images capture mergers at a single instant in time making it hard to interpret their properties. Hence, we must resort to indirect means of assessing them by comparison with simulations. Simulations provide an all round quantitative understanding of galaxy mergers, their properties and impact on evolution. The idea is to utilize simulation data to infer observed galaxy merger properties. In this thesis, we train a Deep Neural Network model on galaxy merger images generated from EAGLE simulations with their corresponding properties namely size and mass ratio. We successfully generate two image sets of data for galaxy mergers, at z=0 and 20>z>0 separately, using two zooming techniques namely the EAGLE package and a self written zooming algorithm. The training results in an accuracy of 85% and 80% on the datasets z=0 and 20>z>0 for mass ratio and 90% and 70% for size ratio respectively. Considering that similar accuracies are achieved, we imply that the visualization techniques aren’t crucial to the training, suggesting that the model is robust. We also imply from the high accuracies achieved that Deep Neural Networks are an effective tool in studying galaxy mergers. Further, we conclude that with higher accuracies achieved by increasing the resolution of the images, this technique can be used to study observational images of galaxy mergers.
 
-  
-**The relation between galaxy morphology and merger history in EAGLE simulations** 
+<div class="project-cards">
+  <a href="{{ '/assets/images/FirstyearThesis.pdf' | relative_url }}" target="_blank" class="project-cards">
+    <h3>The relation between galaxy morphology and merger history in EAGLE simulations</h3>
+  </a>
+</div>
+
 
 <figure>
   <img src="/assets/images/Eagle.png" alt="EAGLE simulations" width="350" height="250">
