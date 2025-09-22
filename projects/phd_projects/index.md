@@ -10,7 +10,7 @@ title: PhD projects
 </div>
 
 <figure>
-  <img src="/assets/images/NPE.png" alt="NPE" width="350" height="250">
+  <img src="/assets/images/NPE.png" alt="NPE" width="450" height="350">
   <figcaption></figcaption>
 </figure>
 
