@@ -148,6 +148,17 @@ figure.profile-figure img.profile-pic {
   hyphens: auto;              /* enable hyphenation where supported */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
+  line-height: 1.6;
+  margin-bottom: 3em; /* ← adds space between content blocks */
+}
+
+.content h3 {
+  text-align: left;
+  margin-bottom: 0.6em; /* small gap below the title */
+}
+
+.content figure {
+  margin-bottom: 1em; /* space between image and paragraph */
 }
 
 /* keep headings left-aligned (optional) */
