@@ -140,3 +140,20 @@ figure.profile-figure img.profile-pic {
 .link:hover {
   color: black; /* optional hover effect */
 }
+
+/* basic justification for paragraph text */
+.content, .content p {
+  text-align: justify;
+  text-justify: inter-word;    /* improves justification behavior in some UAs */
+  hyphens: auto;              /* enable hyphenation where supported */
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+/* keep headings left-aligned (optional) */
+.content h2, .content h1, .content h3 { text-align: left; }
+
+/* responsive: don't justify on very narrow screens (better readability) */
+@media (max-width: 600px) {
+  .content, .content p { text-align: left; }
+}
